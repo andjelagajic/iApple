@@ -1,0 +1,19 @@
+<li class="list-group-item">
+  <div class="row">
+    <div class="col-6">
+      <img src="{{phone.image}}" alt="">
+    </div>
+    <div class="col-2">
+      <div class="d-flex justify-content-between">
+        <a href="">
+          <h4>{{phone.name}}</h4>
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+  <button class="btn btn-outline-success disabled mt-3">
+    {{phone.price | currency:'EUR' }}
+  </button>
+</li>

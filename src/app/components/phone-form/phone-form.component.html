@@ -1,0 +1,21 @@
+<div class="row justify-content-center">
+  <div class="col-4">
+    <form (ngSubmit)="onSubmit(idInput, nameInput, priceInput)" class="card card-body mb-3 p-3">
+      <div class="mb-3">
+        <label for="phoneId">ID</label>
+        <input type="text" name="idPhone" id="phoneId" class="form-control" #idInput>
+      </div>
+
+      <div class="mb-3">
+        <label for="phoneName">Name</label>
+        <input type="text" name="namePhone" id="phoneName" class="form-control" #nameInput>
+      </div>
+
+      <div class="mb-3">
+        <label for="phonePrice">Price</label>
+        <input type="text" name="pricePhone" id="phonePrice" class="form-control" #priceInput>
+      </div>
+      <button type="submit" class="btn btn-success">Add new phone</button>
+    </form>
+  </div>
+</div>
